@@ -1,0 +1,16 @@
+{
+  "name": "attendance-backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.15.0",
+    "@fastify/cors": "^8.0.0",
+    "fastify-multer": "^2.0.3",
+    "mongoose": "^7.5.0",
+    "redis": "^4.6.13",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
